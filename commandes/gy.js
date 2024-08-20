@@ -5,7 +5,7 @@ const s = require(__dirname + "/../set");
 
 zokou(
     {
-        nomCom : 'awake',
+        nomCom : 'gay',
         categorie : 'General'
         
     },async (dest,zk,commandeOptions) => {
@@ -73,8 +73,8 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre("you are a gay 🖕");
+         repondre("if not why you recommend it ")
      }
  } else {
 
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _TKM-bot_ is running on server 99. ')
+repondre('shut u gay ')
 
 }
     });
