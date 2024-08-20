@@ -34,14 +34,14 @@ await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
 
 
 zokou(
-      { nomCom: "testb", reaction: "😌"},
+      { nomCom: "creater", reaction: "🎖️"},
   async (dest,zk,commandOptions) => {
     const { ms } = commandOptions;
 const sentMsg1  = await zk.sendMessage(dest, { text: 'oh hello there' })
 // send a reply messagge
 const sentMsg2  = await zk.sendMessage(dest, { text: 'oh hello there' }, { quoted: ms })
 // send a mentions message
-const sentMsg3  = await zk.sendMessage(dest, { text: '@12345678901', mentions: ['12345678901@s.whatsapp.net'] })
+const sentMsg3  = await zk.sendMessage(dest, { text: '@12345678901', mentions: ['255714595078@s.whatsapp.net'] })
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
@@ -50,7 +50,7 @@ const sentMsg4  = await zk.sendMessage(
 // send a contact!
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Jeff Singh\n' // full name
+            + 'FN:joel tech\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=255714595078:255781144539\n' // WhatsApp ID + phone number
             + 'END:VCARD'
@@ -58,7 +58,7 @@ const sentMsg5  = await zk.sendMessage(
     dest,
     { 
         contacts: { 
-            displayName: 'Jeff', 
+            displayName: 'joel', 
             contacts: [{ vcard }] 
         }
     }
