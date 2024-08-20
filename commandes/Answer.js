@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "bing", reaction: "❄️", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*powered by BMW-MD*';
+      let caption = 'bing images by joel tech';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
